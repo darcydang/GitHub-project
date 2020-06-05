@@ -1,9 +1,6 @@
 all: README.md
 
 README.md:
-	echo "##all: README.md
-
-README.md:
 	echo "#Peer-graded Assignment: Bash, Make, Git, and GitHub\n" > README.md
 	echo -n "README.md created: " >> README.md
 	date >> README.md
