@@ -17,7 +17,7 @@ function guessit
 				echo "Your guess is too high. Try again."
 			fi
 			
-			echo "Please guess another nummber:"
+			echo "Please guess another number:"
 			read guess
 		done
 	echo "Congratulations! Your guess was correct!"
