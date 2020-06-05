@@ -2,12 +2,12 @@
 # File: guessinggame.sh
 
 
-function guessthenumber 
+function guessit 
 {
 	echo "How many files are in the current directory?"
 	read guess
 
-	while [[ $guess -eq 3 ]] 
+	while [[ $guess -ne 3 ]] 
 		do 
 			if [[ $guess -lt 3 ]]
 			then
@@ -23,4 +23,4 @@ function guessthenumber
 	echo "Congratulations! Your guess was correct!"
 }
 
-
+guessit
